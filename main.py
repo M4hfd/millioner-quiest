@@ -7,126 +7,105 @@ print("""Твой первый вопрос:
 Ответ: """)
 answer_one = input()
 if answer_one == "2":
-    print("Да?")
-else:
-    print("вы проиграли и ничего не выиграли")
-if answer_one == "2":
-  print("""Твой второй вопрос:
+    print("""Верно! Твой второй вопрос:
 Самый вонючий сыр в мире?
 1- Понт Левек
 2- Камамбер
 3- Мюнстер
 4- Пармезан
 Ответ: """)
-  answer_two = input()
-  if answer_two == "1":
-    print("Да?")
-  else:
-    print("вы проиграли и ничего не выиграли")
-  if answer_two == "1":
-    print("""Твой третий вопрос:
+    answer_two = input()
+    if answer_two == "1":
+        print("""Верно! Твой третий вопрос:
 Имя основателя SpaceX?
 1- Миша
 2- Ливан
 3- Илон
 4- Кокуджун
 Ответ: """)
-    answer_three = input()
-    if answer_three == "3":
-     print("Да?")
-    else:
-     print("вы проиграли и ничего не выиграли")
-    if answer_three == "3":
-     if answer_three == "3":
-      print("""Твой четвертый вопрос:
+        answer_three = input()
+        if answer_three == "3":
+            print("""Верно! Твой четвертый вопрос:
 Кто такой Томас Эдисон?
-1- Писатель из Австрии
+1- Художник из Австрии
 2- Актер амерекаского кино
 3- Известный вор
 4- Изобретатель лампочки
 Ответ: """)
-      answer_four = input()
-     if answer_four == "4":
-      print("Да?")
-     else:
-      print("Вы проиграли, Ваш выигрыш составил 300к")
-    if answer_four == "4":
-     print("""Твой пятый вопрос:
+            answer_four = input()
+            if answer_four == "4":
+               print("""Верно! Твой пятый вопрос:
 Самое популярное домашнее животное в России?
 1- Собака
 2- Кошка
 3- Крыса
 4- Жук
-Ответ: """)
-     answer_five = input()
-    if answer_five == "2":
-     print("Да?")
-    else:
-     print("Вы проиграли, Ваш выигрыш составил 300к")
-    if answer_five == "2":
-     print("""Твой шестой вопрос:
+Ответ: """)  
+               answer_five = input()
+               if answer_five == "2":
+                    print("""Верно! Твой шестой вопрос:
 Какой гриб сьедобен?
 1- Горькушка
 2- Мухомор
 3- Поганка
 4- Желчный
 Ответ: """)
-     answer_six = input()
-    if answer_six == "1":
-     print("Да?")
-    else:
-     print("Вы проиграли, Ваш выигрыш составил 300к")  
-    if answer_six == "1":
-     print("""Твой седьмой вопрос:
+                    answer_six = input()
+                    if answer_six == "1": 
+                          print("""Верно! Твой седьмой вопрос:
 Кто открыл таблицу Менделеева?
 1- Д.И. Менделеев
 2- М.В. Ломоносов
 3- А. Эйнштейн
 4- Н. Тесла
 Ответ: """)
-     answer_seven = input()
-    if answer_seven == "1":
-        print("Да?")
-    else:
-        print("Вы проиграли, Ваш выигрыш составил 300к")
-    if answer_seven == "1":
-           print("""Твой восьмой вопрос:
+                          answer_seven = input()
+                          if answer_seven == "1":
+                               print("""Верно! Твой восьмой вопрос:
 Общепринятый мировой язык?
 1- Латынь
 2- Русский
 3- Английский
 4- Китайский
 Ответ: """)
-           answer_eight = input()
-           if answer_eight == "3":
-             print("Да?")
-           else:
-             print("Вы проиграли, Ваш выигрыш составил 700к")
-           if answer_eight == "3":
-             print("""Твой девятый вопрос:
+                               answer_eight = input()
+                               if answer_eight == "3":          
+                                     print("""Верно! Твой девятый вопрос:
 Самая дорогая компания на 2022 год?
 1- Apple
 2- Saudi Aramco
 3- Samsung
 4- Google
 Ответ: """)
-             answer_nine = input()
-    if answer_nine == "2":
-        print("Да?")
-    else:
-        print("Вы проиграли, Ваш выигрыш составил 700к")
-    if answer_nine == "2":
-      print("""Твой десятый вопрос:
+                                     answer_nine = input()
+                                     if answer_nine == "2":
+                                         print("""Верно! Твой десятый вопрос:
 Лучший язык программирования для новичка?
 1- Pascal
 2- C#
 3- Java
 4- Python
-Ответ: """)
-      answer_ten = input()
-      if answer_ten == "4":
-            print("Вы победили, выигрыш составил 1.000к")
-      else:
-            print("Вы проиграли, Ваш выигрыш составил 700к")
-      
-             
+Ответ: """)          
+                                         answer_ten = input()
+                                         if answer_ten == "4":
+                                            print("Вы победили, выигрыш составил 1.000к")
+                                         else:
+                                            print("Проиграл, выйграл 700к")
+                                     else:
+                                        print("Проиграл, выйграл 700к")    
+                               else:
+                                print("Проиграл, выйграл 700к")    
+                          else:
+                             print("Проиграл, выйграл 300к")    
+                    else:
+                       print("Проиграл, выйграл 300к")    
+               else:
+                  print("Проиграл, выйграл 300к")   
+            else:
+              print("Проиграл, выйграл 300к") 
+        else:
+          print("Проиграл") 
+    else:
+      print("Проиграл") 
+else:
+  print("Проиграл") 
