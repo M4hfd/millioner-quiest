@@ -34,15 +34,15 @@ if answer_one == "2":
 Ответ: """)
             answer_four = input()
             if answer_four == "4":
-               print("""Верно! Твой пятый вопрос:
+                print("""Верно! Твой пятый вопрос:
 Самое популярное домашнее животное в России?
 1- Собака
 2- Кошка
 3- Крыса
 4- Жук
 Ответ: """)  
-               answer_five = input()
-               if answer_five == "2":
+                answer_five = input()
+                if answer_five == "2":
                     print("""Верно! Твой шестой вопрос:
 Какой гриб сьедобен?
 1- Горькушка
@@ -52,60 +52,60 @@ if answer_one == "2":
 Ответ: """)
                     answer_six = input()
                     if answer_six == "1": 
-                          print("""Верно! Твой седьмой вопрос:
+                        print("""Верно! Твой седьмой вопрос:
 Кто открыл таблицу Менделеева?
 1- Д.И. Менделеев
 2- М.В. Ломоносов
 3- А. Эйнштейн
 4- Н. Тесла
 Ответ: """)
-                          answer_seven = input()
-                          if answer_seven == "1":
-                               print("""Верно! Твой восьмой вопрос:
+                        answer_seven = input()
+                        if answer_seven == "1":
+                            print("""Верно! Твой восьмой вопрос:
 Общепринятый мировой язык?
 1- Латынь
 2- Русский
 3- Английский
 4- Китайский
 Ответ: """)
-                               answer_eight = input()
-                               if answer_eight == "3":          
-                                     print("""Верно! Твой девятый вопрос:
+                            answer_eight = input()
+                            if answer_eight == "3":          
+                                print("""Верно! Твой девятый вопрос:
 Самая дорогая компания на 2022 год?
 1- Apple
 2- Saudi Aramco
 3- Samsung
 4- Google
 Ответ: """)
-                                     answer_nine = input()
-                                     if answer_nine == "2":
-                                         print("""Верно! Твой десятый вопрос:
+                                answer_nine = input()
+                                if answer_nine == "2":
+                                    print("""Верно! Твой десятый вопрос:
 Лучший язык программирования для новичка?
 1- Pascal
 2- C#
 3- Java
 4- Python
 Ответ: """)          
-                                         answer_ten = input()
-                                         if answer_ten == "4":
-                                            print("Вы победили, выигрыш составил 1.000к")
-                                         else:
-                                            print("Проиграл, выйграл 700к")
-                                     else:
-                                        print("Проиграл, выйграл 700к")    
-                               else:
+                                    answer_ten = input()
+                                    if answer_ten == "4":
+                                        print("Вы победили, выигрыш составил 1.000к")
+                                    else:
+                                        print("Проиграл, выйграл 700к")
+                                else:
+                                    print("Проиграл, выйграл 700к")    
+                            else:
                                 print("Проиграл, выйграл 700к")    
-                          else:
-                             print("Проиграл, выйграл 300к")    
+                        else:
+                            print("Проиграл, выйграл 300к")    
                     else:
-                       print("Проиграл, выйграл 300к")    
-               else:
-                  print("Проиграл, выйграл 300к")   
+                        print("Проиграл, выйграл 300к")    
+                else:
+                    print("Проиграл, выйграл 300к")   
             else:
-              print("Проиграл, выйграл 300к") 
+                print("Проиграл, выйграл 300к") 
         else:
-          print("Проиграл") 
+            print("Проиграл") 
     else:
-      print("Проиграл") 
+        print("Проиграл") 
 else:
-  print("Проиграл") 
+    print("Проиграл") 
